@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    font-size: 24px;
+}
+
+.links {
+    margin-right: 300px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
