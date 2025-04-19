@@ -1,6 +1,9 @@
 body {
+    font-family: "Roboto", sans-serif;;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -13,14 +16,21 @@ header {
 }
 
 .logo {
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 300px;
+}
+
+.logo a {
+    text-decoration: none;
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links {
+    border: 2px solid white;
     margin-right: 300px;
 }
 
@@ -33,7 +43,56 @@ header {
     
 }
 
-a {
+.links a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: #1F2937;
+}
+
+.hero-content {
+    border: 2px solid blue;
+    width: 500px;
+    margin: 50px 0 10žŽ0px 300px;
+}
+
+.hero-title {
+    border: 2px solid pink;
+    width: 350px;
+    font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.hero-text {
+    border: 2px solid blue;
+    width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    border: 2px solid red;
+    width: 100px;
+    height: 30px;
+    border-radius: 12%;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.hero-image {
+    width: 500px;
+    height: 250px;
+    border: 2px solid red;
+    background-color: grey;
+    margin-right: 300px;
 }
