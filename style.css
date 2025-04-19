@@ -61,7 +61,7 @@ header {
 .hero-content {
     border: 2px solid blue;
     width: 500px;
-    margin: 50px 0 10žŽ0px 300px;
+    margin: 50px 0 100px 300px;
 }
 
 .hero-title {
@@ -96,3 +96,40 @@ header {
     background-color: grey;
     margin-right: 300px;
 }
+
+.info {
+    border: 2px solid red;
+    padding: 40px 0;
+}
+
+.info-title {
+    border: 2px solid black;
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.info-frame {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    margin: 40px 50px 5px 50px;
+}
+
+.info-text {
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+}
+
+.item {
+    max-width: 200px;
+}
+
