@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0px 300px;
     
 }
 
@@ -20,7 +21,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
 }
 
 .logo a {
@@ -31,7 +31,8 @@ header {
 
 .links {
     border: 2px solid white;
-    margin-right: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .links ul {
@@ -40,6 +41,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 0px;
     
 }
 
@@ -56,12 +58,12 @@ header {
     align-items: center;
     gap: 32px;
     background-color: #1F2937;
+    padding: 50px 300px;
 }
 
 .hero-content {
     border: 2px solid blue;
     width: 500px;
-    margin: 50px 0 100px 300px;
 }
 
 .hero-title {
@@ -94,7 +96,9 @@ header {
     height: 250px;
     border: 2px solid red;
     background-color: grey;
-    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
